@@ -1,0 +1,68 @@
+.terminal-window {
+    font-family: 'Consolas', 'Courier New', monospace;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 550px;
+    height: 450px;
+    margin: 40px auto;
+    background-color: #e0e0e0;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.terminal-titlebar {
+    background-color: #989393;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.terminal-button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.terminal-button-close { background-color: #ff5f56; }
+.terminal-button-minimize { background-color: #ffbd2e; }
+.terminal-button-expand { background-color: #27c93f; }
+
+.terminal {
+    background-color: #000;
+    color: #33ff00;
+    padding: 20px;
+    height: calc(100% - 50px);
+    white-space: pre-wrap;
+    word-break: break-word;
+    overflow-y: auto;
+}
+
+.terminal-line {
+    margin-bottom: 10px;
+}
+
+.terminal-prompt {
+    color: #33ff00;
+    user-select: none;
+    display: inline;
+}
+
+.terminal-command {
+    color: #ffffff;
+    user-select: none;
+    display: inline;
+}
+
+.terminal-cursor {
+    background-color: #ffffff;
+    animation: blink 1s steps(2, start) infinite;
+}
+
+@keyframes blink {
+    50% { background-color: transparent; }
+}

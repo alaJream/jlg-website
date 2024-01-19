@@ -1,0 +1,91 @@
+.home-container {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+  }
+  
+  
+  .profile-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url('img/jlg.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-right: 30px;
+    transition: transform 0.3s ease;
+  }
+  
+  
+  .profile-image:hover {
+    transform: scale(1.05); 
+  }
+  
+  .profile-content {
+    text-align: left;
+  }
+  
+  .profile-content .wave-emoji {
+    display: inline-block;
+  }
+  
+  .profile-details {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .profile-details li {
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+  }
+
+  .profile-details li:hover {
+    transform: scale(1.1); /* pop effect */
+  }
+
+  .details-emoji,
+  .laptop-emoji {
+    margin-right: 8px;
+  }
+  
+  .social-icon {
+    color: #666; 
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+
+  .social-links a {
+    margin: 0 10px;
+    color: #333; 
+    font-size: 24px; 
+  }
+  .social-links a:hover .social-icon {
+    color: #007bff; 
+    transform: scale(1.2); /* Enlarge the icon */
+  }
+  
+
+  @keyframes waveAnimation {
+    0%, 100% { transform: rotate(0deg); }
+    20%, 60% { transform: rotate(-20deg); }
+    40%, 80% { transform: rotate(10deg); }
+  }
+  
+  .wave-emoji {
+    display: inline-block;
+    animation: waveAnimation 2.5s infinite;
+  }
+  
+  
+
+  
