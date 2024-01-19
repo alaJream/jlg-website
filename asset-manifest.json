@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/jlg-website/static/css/main.87c6e96c.css",
+    "main.js": "/jlg-website/static/js/main.5a0e1b3d.js",
+    "static/media/jlg.jpeg": "/jlg-website/static/media/jlg.cb62bbf63384d78c81c1.jpeg",
+    "index.html": "/jlg-website/index.html",
+    "main.87c6e96c.css.map": "/jlg-website/static/css/main.87c6e96c.css.map",
+    "main.5a0e1b3d.js.map": "/jlg-website/static/js/main.5a0e1b3d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87c6e96c.css",
+    "static/js/main.5a0e1b3d.js"
+  ]
+}
